@@ -6,8 +6,9 @@ $(document).ready(function() {
 	$('button').hover(function() {
 		$(this).siblings('button').css('opacity', '0.3');
 	},function() {
-		$('button').css('opacity', '1');	
-	});
+		$('button').css('opacity', '1');
+		
+		});
 	$('.btn-1').click(function() {
 		$(this).css('background-color', 'red').text('Cezary').hide().show(2000);
 	});
