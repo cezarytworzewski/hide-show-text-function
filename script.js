@@ -1,15 +1,14 @@
-$(document).ready(function() {
-    $('#test').click(function() {
+$(document).ready(function () {
+	$('#test').click(function () {
 		$('#test').hide(3000).show(3000).text('Cezary Tworzewski').css('color', 'red', 'text-align', 'center', 'font-size', '25px');
 	});
-	
-	$('button').hover(function() {
+	$('button').hover(function () {
 		$(this).siblings('button').css('opacity', '0.3');
-	},function() {
+	}, function () {
 		$('button').css('opacity', '1');
-		
-		});
-	$('.btn-1').click(function() {
+
+	});
+	$('.btn-1').click(function () {
 		$(this).css('background-color', 'red').text('Cezary').hide().show(2000);
 	});
 });
