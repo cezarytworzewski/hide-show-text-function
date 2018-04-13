@@ -18,3 +18,15 @@ body {
 p {
 	font-size: 20px;
 }
+
+button {
+	height: 60px;
+	width: 120px;
+	line-height: 60px;
+	display: flex;
+	font-size: 20px;
+	margin: auto;
+	background-color: gray;
+	border-radius: 20px;
+	cursor: pointer;
+}
