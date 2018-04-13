@@ -8,5 +8,8 @@ $(document).ready(function() {
 	},function() {
 		$('button').css('opacity', '1');	
 	});
+	$('.btn-1').click(function() {
+		$(this).css('background-color', 'red').text('Cezary').hide().show(2000);
+	});
 });
 
